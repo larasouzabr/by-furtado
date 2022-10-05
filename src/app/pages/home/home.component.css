@@ -1,0 +1,25 @@
+#carouselMonstruario .carousel-item img{
+    object-fit: cover; 
+    object-position: center;
+    filter: brightness(40%);
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-type-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+}
+
+@media (max-width: 880px) {
+     
+.product-type-name{
+    font-size: 60px;
+}
+#carouselMonstruario .carousel-item img{
+    height: 80vh;
+}
+
+}

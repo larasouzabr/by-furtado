@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'by-furtado';
+   btn = document.querySelector("#back-to-top");
+   
+   goToTop(){
+    window.scrollTo(0, 0);
+   }
 }

@@ -1,0 +1,15 @@
+#back-to-top {
+    z-index: 1000;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 30px;
+  }
+
+  @media (max-width: 600px) {
+  
+    #back-to-top{
+    bottom: 20px;
+    right: 10px;
+    }
+}

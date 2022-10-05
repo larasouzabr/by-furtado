@@ -1,0 +1,28 @@
+<div class="carousel mb-5 mt-3">
+    <ngx-slick-carousel [config]="sliderConfig" class="carousel">
+        <div class="slick-item" tabindex="0" *ngFor="let product of productArr" ngxSlickItem>
+          <a routerLink ="/verproduto/{{product.id}}" style="text-decoration:none;">
+            <img
+              src="{{product.imgLink}}" 
+              alt="{{ product.name}}"
+              class="img-slick"
+            />
+              <div class="col mb-5 description">
+                  <div class="card h-100">
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">{{product.name}}</h5>
+                              <!-- Product price-->
+                              R${{product.value}}
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </a> 
+        </div>
+      </ngx-slick-carousel>
+    
+    
+</div>

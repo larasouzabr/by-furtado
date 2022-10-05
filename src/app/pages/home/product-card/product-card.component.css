@@ -1,0 +1,28 @@
+.img-slick{
+    max-width: 510px;
+    position: relative;
+}
+
+.description{
+    height: 120px;
+    color: black;
+}
+
+.carousel{
+    max-width:98%;
+}
+
+
+@media (max-width: 880px) {
+  
+    .img-slick{
+       width: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+  
+    .slick-item{
+       width: 150px;
+    }
+}
